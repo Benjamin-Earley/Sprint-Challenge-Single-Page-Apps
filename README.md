@@ -34,15 +34,15 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 Follow these steps to set up and work on your project:
 
-- [ ]  Create a forked copy of this project.
-- [ ]  Add TL as collaborator on GitHub.
-- [ ]  Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ]  Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
-- [ ]  Implement the project on this branch, committing changes regularly.
-- [ ]  Push commits: `git push origin <firstName-lastName>`.
-- [ ]  **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
-- [ ]  **RUN** `npm install` to retrieve the client-side dependencies.
-- [ ]  **RUN** `npm start` to fire up your React application.
+- [*]  Create a forked copy of this project.
+- [*]  Add TL as collaborator on GitHub.
+- [*]  Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [*]  Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
+- [*]  Implement the project on this branch, committing changes regularly.
+- [*]  Push commits: `git push origin <firstName-lastName>`.
+- [*]  **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
+- [*]  **RUN** `npm install` to retrieve the client-side dependencies.
+- [*]  **RUN** `npm start` to fire up your React application.
 
 ### Exceeded rate limits?
 
@@ -75,7 +75,7 @@ _Add a Router to this application using [React Router](https://reacttraining.com
 
 _Add 'Search by Name' feature._
 
-- [ ]  Add the `<SearchForm />` component (see `./components/SearchForm.js`).
+- [*]  Add the `<SearchForm />` component (see `./components/SearchForm.js`).
 - [ ]  Create a search form that will filter through the data displayed in the character list.
 
 ### **Required best practices:**

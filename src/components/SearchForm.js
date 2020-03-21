@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Axios from "axios"
 
-import CharacterList, { characters } from "./CharacterList"
-
 export default function SearchForm(props) {
   const [searchItem, setSearchItem] = useState("")
   const [searchResults, setSearchResults] = useState([])
@@ -12,7 +10,8 @@ export default function SearchForm(props) {
 
   useEffect(() => {
     const results = props.characters.filter(character => {
-      character.includes(searchItem)
+      character.name.includes(searchItem)
+      console.log(character.name.includes(searchItem))
     })
     setSearchResults(results)
   }, [searchItem])
