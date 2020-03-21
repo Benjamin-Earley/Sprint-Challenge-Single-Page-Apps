@@ -5,6 +5,7 @@ import { NavLink, Route } from "react-router-dom"
 import WelcomePage from "./WelcomePage"
 import CharacterList from "./CharacterList"
 
+
 export default function Tabs() {
     return (
         <div className="navbar grid-view">
